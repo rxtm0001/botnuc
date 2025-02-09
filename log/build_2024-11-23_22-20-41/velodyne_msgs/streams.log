@@ -1,0 +1,264 @@
+[0.028s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_msgs
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.345s] -- The CXX compiler identification is GNU 11.4.0
+[0.364s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.546s] -- Detecting C compile features
+[0.550s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.798s] -- Detecting CXX compiler ABI info - done
+[0.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.832s] -- Detecting CXX compile features
+[0.832s] -- Detecting CXX compile features - done
+[0.844s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.620s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.775s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.811s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.837s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.034s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.083s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[3.029s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.041s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.063s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.076s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.764s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.773s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.825s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.825s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.825s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.923s] -- Found PythonExtra: .so  
+[5.205s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.216s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.228s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.293s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.295s] -- Added test 'lint_cmake' to check CMake code style
+[5.299s] -- Added test 'xmllint' to check XML markup files
+[5.307s] -- Configuring done
+[5.410s] -- Generating done
+[5.414s] -- Build files have been written to: /home/botnuc/linorobot2_ws/build/velodyne_msgs
+[5.441s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_msgs
+[5.442s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_msgs -- -j4 -l4
+[5.573s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.601s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.662s] [  5%] Built target ament_cmake_python_copy_velodyne_msgs
+[6.787s] running egg_info
+[6.789s] creating velodyne_msgs.egg-info
+[6.789s] writing velodyne_msgs.egg-info/PKG-INFO
+[6.789s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[6.790s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[6.798s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[6.909s] listing git files failed - pretending there aren't any
+[7.170s] [  7%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[7.177s] [ 10%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[7.192s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[7.196s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[7.312s] [ 10%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[7.380s] [ 12%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[7.391s] [ 12%] Built target velodyne_msgs__cpp
+[7.427s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.437s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.437s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.530s] [ 20%] Built target velodyne_msgs__rosidl_generator_c
+[7.573s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.245s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[9.302s] [ 28%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[9.520s] [ 30%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[9.647s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[10.606s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[11.005s] [ 38%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[11.613s] [ 41%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[11.851s] [ 41%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[11.862s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[11.906s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.906s] [ 48%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[12.656s] [ 51%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.143s] [ 51%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[13.199s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.673s] [ 56%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.147s] [ 58%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[14.187s] [ 58%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[14.238s] [ 61%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[14.465s] [ 64%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.466s] [ 66%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.611s] [ 66%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[14.698s] [ 69%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[14.734s] [ 71%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[14.874s] [ 74%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[14.883s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[15.067s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_c
+[15.161s] [ 74%] Built target velodyne_msgs
+[15.253s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.853s] [ 76%] Built target velodyne_msgs__py
+[17.946s] [ 79%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[17.960s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[18.444s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so[0m
+[18.580s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[18.652s] [ 87%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.667s] [ 89%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.673s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.018s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.204s] [ 94%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.228s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.239s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.375s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[19.412s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[19.458s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_msgs -- -j4 -l4
+[19.855s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_msgs
+[19.886s] -- Install configuration: ""
+[19.886s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[19.887s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.887s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.887s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.887s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[19.887s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[19.890s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[19.890s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[19.890s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[19.890s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[19.891s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[19.891s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[19.891s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[19.892s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[19.892s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.893s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[19.893s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[19.893s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[19.894s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[19.894s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.894s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.894s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.894s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[19.898s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[19.898s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.904s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[19.904s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.904s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.904s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.905s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[19.905s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[19.905s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.905s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.907s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.907s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/dds_fastrtps
+[19.907s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.907s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[19.908s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.908s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.909s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.909s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.909s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.909s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.910s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[19.913s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[19.913s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[19.913s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[19.914s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.914s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[19.914s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.914s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[19.914s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[19.915s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[19.915s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[19.915s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[19.915s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[19.921s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[19.921s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[19.921s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[19.921s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[19.922s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.922s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[19.922s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[19.923s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[19.923s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[19.923s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info
+[19.926s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/top_level.txt
+[19.926s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/PKG-INFO
+[19.926s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/SOURCES.txt
+[19.927s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/dependency_links.txt
+[19.927s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs
+[19.927s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg
+[19.927s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[19.929s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[19.929s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py
+[19.929s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py
+[19.931s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py
+[19.931s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[19.931s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[19.932s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.932s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py
+[19.936s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.936s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.936s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.936s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.084s] Listing '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs'...
+[20.084s] Compiling '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py'...
+[20.085s] Listing '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg'...
+[20.085s] Compiling '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py'...
+[20.085s] Compiling '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py'...
+[20.085s] Compiling '/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py'...
+[20.098s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.105s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.105s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.105s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.106s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.107s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.107s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[20.113s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so" to ""
+[20.113s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[20.113s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[20.113s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[20.113s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[20.117s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[20.121s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[20.121s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[20.121s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[20.121s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[20.135s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[20.135s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[20.136s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[20.137s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.137s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.137s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.137s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[20.137s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.138s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.138s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.138s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.140s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[20.141s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.144s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.144s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.146s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[20.146s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.146s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[20.146s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.146s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[20.148s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.149s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.149s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.149s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.149s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.151s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.151s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[20.151s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[20.152s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[20.165s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_msgs

@@ -1,0 +1,22 @@
+[0.220s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[0.474s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[0.673s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_base
+[0.731s] -- Install configuration: ""
+[0.735s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config
+[0.735s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml
+[0.741s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base
+[0.741s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base
+[0.741s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh
+[0.746s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv
+[0.751s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh
+[0.751s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv
+[0.752s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash
+[0.752s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh
+[0.752s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh
+[0.756s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv
+[0.756s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv
+[0.756s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base
+[0.756s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake
+[0.757s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake
+[0.757s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml
+[0.770s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_base

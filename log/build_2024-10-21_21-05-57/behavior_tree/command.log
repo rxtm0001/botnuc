@@ -1,0 +1,6 @@
+Invoking command in '/home/botnuc/linorobot2_ws/build/behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/behavior_tree -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/behavior_tree
+Invoked command in '/home/botnuc/linorobot2_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/behavior_tree -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/behavior_tree
+Invoking command in '/home/botnuc/linorobot2_ws/build/behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/behavior_tree -- -j4 -l4
+Invoked command in '/home/botnuc/linorobot2_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/behavior_tree -- -j4 -l4
+Invoking command in '/home/botnuc/linorobot2_ws/build/behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/behavior_tree
+Invoked command in '/home/botnuc/linorobot2_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/behavior_tree

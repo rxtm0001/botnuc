@@ -1,0 +1,42 @@
+[0.036s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[0.416s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[0.716s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_navigation
+[0.821s] -- Install configuration: ""
+[0.821s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch
+[0.821s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/navigation.launch.py
+[0.821s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/slam.launch.py
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation.rviz
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation_minimal.rviz
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_slam.rviz
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation.yaml
+[0.822s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/slam.yaml
+[0.824s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation_sim.yaml
+[0.825s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps
+[0.825s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.pgm
+[0.826s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricar.yaml
+[0.828s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo.pgm
+[0.828s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo.yaml
+[0.828s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo2.pgm
+[0.828s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricar.pgm
+[0.828s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.yaml
+[0.829s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.yaml
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo2.yaml
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.pgm
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/package_run_dependencies/linorobot2_navigation
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/parent_prefix_path/linorobot2_navigation
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.sh
+[0.830s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.dsv
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.sh
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.dsv
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.bash
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.sh
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.zsh
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.dsv
+[0.831s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv
+[0.831s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/packages/linorobot2_navigation
+[0.832s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig.cmake
+[0.832s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig-version.cmake
+[0.832s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.xml
+[0.858s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_navigation

@@ -1,0 +1,6 @@
+Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_msgs
+Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_msgs
+Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_msgs -- -j4 -l4
+Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_msgs -- -j4 -l4
+Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_msgs
+Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_msgs

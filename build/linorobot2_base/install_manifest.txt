@@ -1,0 +1,16 @@
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake
+/home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml

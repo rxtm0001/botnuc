@@ -1,0 +1,2 @@
+[0.072s] Invoking command in '/home/botnuc/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/micro_ros_msgs -- -j4 -l4
+[0.205s] Invoked command in '/home/botnuc/linorobot2_ws/build/micro_ros_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/micro_ros_msgs -- -j4 -l4

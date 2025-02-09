@@ -1,0 +1,2 @@
+[0.113s] Invoking command in '/home/botnuc/linorobot2_ws/build/camera_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/camera_detection -- -j4 -l4
+[0.186s] Invoked command in '/home/botnuc/linorobot2_ws/build/camera_detection' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/camera_detection -- -j4 -l4

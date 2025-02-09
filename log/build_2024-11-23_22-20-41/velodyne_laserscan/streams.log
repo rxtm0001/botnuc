@@ -1,0 +1,93 @@
+[0.024s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_laserscan
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.353s] -- Detecting C compiler ABI info
+[0.532s] -- Detecting C compiler ABI info - done
+[0.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.572s] -- Detecting CXX compiler ABI info
+[0.851s] -- Detecting CXX compiler ABI info - done
+[0.891s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.892s] -- Detecting CXX compile features
+[0.892s] -- Detecting CXX compile features - done
+[0.897s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.650s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.826s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.855s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.892s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.219s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.233s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.688s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.916s] -- Looking for pthread.h
+[3.224s] -- Looking for pthread.h - found
+[3.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.489s] -- Found Threads: TRUE  
+[3.764s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.894s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.025s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.361s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.366s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.366s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/botnuc/linorobot2_ws/src/velodyne/velodyne_laserscan/include>
+[4.366s] -- Configured cppcheck exclude dirs and/or files: 
+[4.370s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.374s] -- Configured cpplint exclude dirs and/or files: 
+[4.375s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.376s] -- Added test 'lint_cmake' to check CMake code style
+[4.381s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.387s] -- Added test 'uncrustify' to check C / C++ code style
+[4.387s] -- Configured uncrustify additional arguments: 
+[4.387s] -- Added test 'xmllint' to check XML markup files
+[4.400s] -- Configuring done
+[4.446s] -- Generating done
+[4.452s] -- Build files have been written to: /home/botnuc/linorobot2_ws/build/velodyne_laserscan
+[4.491s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/velodyne_laserscan
+[4.500s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_laserscan -- -j4 -l4
+[4.648s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[32.314s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[33.064s] [ 50%] Built target velodyne_laserscan
+[33.091s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[37.589s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[37.889s] [100%] Built target velodyne_laserscan_node
+[37.904s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/velodyne_laserscan -- -j4 -l4
+[37.951s] Invoking command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_laserscan
+[37.959s] -- Install configuration: ""
+[37.959s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[37.967s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[37.968s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[37.968s] -- Set runtime path of "/home/botnuc/linorobot2_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[37.969s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/include/velodyne_laserscan
+[37.969s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[37.969s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/config
+[37.969s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[37.969s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[37.970s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[37.970s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[37.971s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[37.971s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[37.971s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[37.971s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[37.974s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[37.975s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport.cmake
+[37.975s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport-noconfig.cmake
+[37.975s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.975s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[37.975s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.976s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[37.976s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[37.976s] -- Installing: /home/botnuc/linorobot2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[37.979s] Invoked command in '/home/botnuc/linorobot2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/velodyne_laserscan

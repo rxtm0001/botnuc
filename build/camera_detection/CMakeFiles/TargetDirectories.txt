@@ -1,0 +1,9 @@
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/uninstall.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/camera_detection_uninstall.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/test.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/edit_cache.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/rebuild_cache.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/list_install_components.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/install.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/install/local.dir
+/home/botnuc/linorobot2_ws/build/camera_detection/CMakeFiles/install/strip.dir

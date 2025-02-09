@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/linorobot2/linorobot2_navigation -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/linorobot2_navigation
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.590s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.592s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.012s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.657s] -- Configuring done
+[1.672s] -- Generating done
+[1.673s] -- Build files have been written to: /home/botnuc/linorobot2_ws/build/linorobot2_navigation
+[1.691s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/botnuc/linorobot2_ws/src/linorobot2/linorobot2_navigation -DCMAKE_INSTALL_PREFIX=/home/botnuc/linorobot2_ws/install/linorobot2_navigation
+[1.693s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[1.802s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[1.905s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_navigation
+[1.943s] -- Install configuration: ""
+[1.943s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch
+[1.965s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/navigation.launch.py
+[1.965s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/slam.launch.py
+[1.965s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz
+[1.965s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation.rviz
+[1.968s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation_minimal.rviz
+[1.968s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_slam.rviz
+[1.968s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config
+[1.968s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation.yaml
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/slam.yaml
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation_sim.yaml
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.pgm
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.yaml
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.yaml
+[1.969s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.pgm
+[1.999s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/package_run_dependencies/linorobot2_navigation
+[1.999s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/parent_prefix_path/linorobot2_navigation
+[1.999s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.sh
+[2.008s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.dsv
+[2.010s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.sh
+[2.010s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.dsv
+[2.010s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.bash
+[2.010s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.sh
+[2.010s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.zsh
+[2.029s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.dsv
+[2.029s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv
+[2.030s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/packages/linorobot2_navigation
+[2.030s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig.cmake
+[2.030s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig-version.cmake
+[2.030s] -- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.xml
+[2.072s] Invoked command in '/home/botnuc/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/linorobot2_navigation

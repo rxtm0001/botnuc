@@ -1,0 +1,31 @@
+[0.110s] Invoking command in '/home/botnuc/linorobot2_ws/build/camera_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/camera_detection -- -j4 -l4
+[0.250s] Invoked command in '/home/botnuc/linorobot2_ws/build/camera_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/camera_detection -- -j4 -l4
+[0.407s] Invoking command in '/home/botnuc/linorobot2_ws/build/camera_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/camera_detection
+[0.436s] -- Install configuration: ""
+[0.436s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/camera_detection_node.py
+[0.436s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/flag_position_node.py
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/flag_point_node.py
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/launch
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/launch/camera_detection_launch.py
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3.weights
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3.cfg
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/coco.names
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3-tiny.weights
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3-tiny.cfg
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/package_run_dependencies/camera_detection
+[0.437s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/parent_prefix_path/camera_detection
+[0.438s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/ament_prefix_path.sh
+[0.438s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/ament_prefix_path.dsv
+[0.438s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/path.sh
+[0.456s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/path.dsv
+[0.456s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.bash
+[0.457s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.sh
+[0.457s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.zsh
+[0.457s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.dsv
+[0.457s] -- Installing: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/package.dsv
+[0.464s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/packages/camera_detection
+[0.464s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/cmake/camera_detectionConfig.cmake
+[0.465s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/cmake/camera_detectionConfig-version.cmake
+[0.465s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/package.xml
+[0.471s] Invoked command in '/home/botnuc/linorobot2_ws/build/camera_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/camera_detection

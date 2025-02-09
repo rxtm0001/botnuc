@@ -1,0 +1,34 @@
+[0.089s] Invoking command in '/home/botnuc/linorobot2_ws/build/behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/behavior_tree -- -j4 -l4
+[0.221s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.671s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.742s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.766s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.088s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.241s] -- Configuring done
+[1.270s] -- Generating done
+[1.270s] -- Build files have been written to: /home/botnuc/linorobot2_ws/build/behavior_tree
+[1.480s] Invoked command in '/home/botnuc/linorobot2_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/behavior_tree -- -j4 -l4
+[1.773s] Invoking command in '/home/botnuc/linorobot2_ws/build/behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/behavior_tree
+[1.867s] -- Install configuration: ""
+[1.867s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/navigate_to_flag.py
+[1.867s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/ApproachFlagController.py
+[1.867s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/package_run_dependencies/behavior_tree
+[1.868s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/parent_prefix_path/behavior_tree
+[1.868s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.sh
+[1.868s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.dsv
+[1.868s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/path.sh
+[1.868s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/path.dsv
+[1.868s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.bash
+[1.903s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.sh
+[1.905s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.zsh
+[1.905s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.dsv
+[1.905s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/package.dsv
+[1.912s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/packages/behavior_tree
+[1.913s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig.cmake
+[1.913s] -- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig-version.cmake
+[1.923s] -- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/package.xml
+[1.924s] Invoked command in '/home/botnuc/linorobot2_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/botnuc/linorobot2_ws/build/behavior_tree

@@ -1,0 +1,748 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (behavior_tree) JobQueued: {'identifier': 'behavior_tree', 'dependencies': OrderedDict()}
+[0.000243] (camera_detection) JobQueued: {'identifier': 'camera_detection', 'dependencies': OrderedDict()}
+[0.000270] (linorobot2) JobQueued: {'identifier': 'linorobot2', 'dependencies': OrderedDict()}
+[0.000322] (linorobot2_base) JobQueued: {'identifier': 'linorobot2_base', 'dependencies': OrderedDict()}
+[0.000592] (linorobot2_description) JobQueued: {'identifier': 'linorobot2_description', 'dependencies': OrderedDict()}
+[0.000844] (linorobot2_navigation) JobQueued: {'identifier': 'linorobot2_navigation', 'dependencies': OrderedDict()}
+[0.000896] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000969] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001042] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001131] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs')])}
+[0.001168] (linorobot2_bringup) JobQueued: {'identifier': 'linorobot2_bringup', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs'), ('micro_ros_agent', '/home/botnuc/linorobot2_ws/install/micro_ros_agent')])}
+[0.001209] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.005965] (behavior_tree) JobStarted: {'identifier': 'behavior_tree'}
+[0.010017] (camera_detection) JobStarted: {'identifier': 'camera_detection'}
+[0.013813] (linorobot2) JobStarted: {'identifier': 'linorobot2'}
+[0.018728] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.019420] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.020737] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_msgs', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022554] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'cmake'}
+[0.022981] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'build'}
+[0.023445] (behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/behavior_tree', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/behavior_tree', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/behavior_tree'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025708] (camera_detection) JobProgress: {'identifier': 'camera_detection', 'progress': 'cmake'}
+[0.026380] (camera_detection) JobProgress: {'identifier': 'camera_detection', 'progress': 'build'}
+[0.026774] (camera_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/camera_detection', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/camera_detection', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/camera_detection'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034232] (linorobot2) JobProgress: {'identifier': 'linorobot2', 'progress': 'cmake'}
+[0.034467] (linorobot2) JobProgress: {'identifier': 'linorobot2', 'progress': 'build'}
+[0.034519] (linorobot2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/linorobot2', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083425] (behavior_tree) CommandEnded: {'returncode': 0}
+[0.095180] (camera_detection) CommandEnded: {'returncode': 0}
+[0.101219] (linorobot2) CommandEnded: {'returncode': 0}
+[0.101884] (-) TimerEvent: {}
+[0.105746] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[0.109434] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[0.131359] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'install'}
+[0.153044] (behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/behavior_tree'], 'cwd': '/home/botnuc/linorobot2_ws/build/behavior_tree', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/behavior_tree'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.161319] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[0.161490] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.161584] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.161680] (camera_detection) JobProgress: {'identifier': 'camera_detection', 'progress': 'install'}
+[0.161709] (camera_detection) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/camera_detection'], 'cwd': '/home/botnuc/linorobot2_ws/build/camera_detection', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/camera_detection'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.168686] (linorobot2) JobProgress: {'identifier': 'linorobot2', 'progress': 'install'}
+[0.168765] (linorobot2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/linorobot2'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.173794] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.173974] (behavior_tree) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.174113] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/navigate_to_flag.py\n'}
+[0.174220] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/ApproachFlagController.py\n'}
+[0.174311] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/General_controller.py\n'}
+[0.174393] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/capture_flag_node.py\n'}
+[0.174487] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/SearchFlag.py\n'}
+[0.174578] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/lib/behavior_tree/electromagnet_node.py\n'}
+[0.174675] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/package_run_dependencies/behavior_tree\n'}
+[0.174761] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/parent_prefix_path/behavior_tree\n'}
+[0.174843] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.sh\n'}
+[0.174945] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.dsv\n'}
+[0.175066] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/path.sh\n'}
+[0.175188] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/environment/path.dsv\n'}
+[0.175297] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.bash\n'}
+[0.175387] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.sh\n'}
+[0.175495] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.zsh\n'}
+[0.175618] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/local_setup.dsv\n'}
+[0.175711] (behavior_tree) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/package.dsv\n'}
+[0.175818] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/ament_index/resource_index/packages/behavior_tree\n'}
+[0.175920] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig.cmake\n'}
+[0.176012] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig-version.cmake\n'}
+[0.176107] (behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/behavior_tree/share/behavior_tree/package.xml\n'}
+[0.179442] (camera_detection) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.181234] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/camera_detection_node.py\n'}
+[0.181372] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/flag_position_node.py\n'}
+[0.181462] (linorobot2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.181594] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/ament_index/resource_index/package_run_dependencies/linorobot2\n'}
+[0.181682] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/ament_index/resource_index/parent_prefix_path/linorobot2\n'}
+[0.181763] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/environment/ament_prefix_path.sh\n'}
+[0.181841] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/environment/ament_prefix_path.dsv\n'}
+[0.181921] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/environment/path.sh\n'}
+[0.182002] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/environment/path.dsv\n'}
+[0.182086] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/local_setup.bash\n'}
+[0.182217] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/local_setup.sh\n'}
+[0.182331] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/local_setup.zsh\n'}
+[0.182457] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/local_setup.dsv\n'}
+[0.182566] (linorobot2) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/package.dsv\n'}
+[0.182664] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/ament_index/resource_index/packages/linorobot2\n'}
+[0.182782] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/cmake/linorobot2Config.cmake\n'}
+[0.182907] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/cmake/linorobot2Config-version.cmake\n'}
+[0.183017] (linorobot2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2/share/linorobot2/package.xml\n'}
+[0.190276] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/lib/camera_detection/flag_point_node.py\n'}
+[0.191434] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/launch\n'}
+[0.191578] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/launch/camera_detection_launch.py\n'}
+[0.191669] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models\n'}
+[0.191753] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3.weights\n'}
+[0.191837] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3.cfg\n'}
+[0.191917] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/coco.names\n'}
+[0.191998] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3-tiny.weights\n'}
+[0.192080] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/models/yolov3-tiny.cfg\n'}
+[0.192180] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/package_run_dependencies/camera_detection\n'}
+[0.192264] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/parent_prefix_path/camera_detection\n'}
+[0.192347] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/ament_prefix_path.sh\n'}
+[0.192430] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/ament_prefix_path.dsv\n'}
+[0.192509] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/path.sh\n'}
+[0.192589] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/environment/path.dsv\n'}
+[0.192670] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.bash\n'}
+[0.192751] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.sh\n'}
+[0.192831] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.zsh\n'}
+[0.192910] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/local_setup.dsv\n'}
+[0.192990] (camera_detection) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/package.dsv\n'}
+[0.193071] (linorobot2) CommandEnded: {'returncode': 0}
+[0.205194] (-) TimerEvent: {}
+[0.213343] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/ament_index/resource_index/packages/camera_detection\n'}
+[0.213501] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/cmake/camera_detectionConfig.cmake\n'}
+[0.213610] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/cmake/camera_detectionConfig-version.cmake\n'}
+[0.213714] (camera_detection) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/camera_detection/share/camera_detection/package.xml\n'}
+[0.213810] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.213913] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[0.214037] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.214137] (behavior_tree) CommandEnded: {'returncode': 0}
+[0.223249] (camera_detection) CommandEnded: {'returncode': 0}
+[0.237210] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[0.265713] (behavior_tree) JobEnded: {'identifier': 'behavior_tree', 'rc': 0}
+[0.274521] (linorobot2) JobEnded: {'identifier': 'linorobot2', 'rc': 0}
+[0.275356] (linorobot2_base) JobStarted: {'identifier': 'linorobot2_base'}
+[0.279806] (linorobot2_description) JobStarted: {'identifier': 'linorobot2_description'}
+[0.284367] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[0.294153] (camera_detection) JobEnded: {'identifier': 'camera_detection', 'rc': 0}
+[0.296343] (linorobot2_navigation) JobStarted: {'identifier': 'linorobot2_navigation'}
+[0.305283] (-) TimerEvent: {}
+[0.306346] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[0.310360] (linorobot2_base) JobProgress: {'identifier': 'linorobot2_base', 'progress': 'cmake'}
+[0.311052] (linorobot2_base) JobProgress: {'identifier': 'linorobot2_base', 'progress': 'build'}
+[0.311371] (linorobot2_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/linorobot2_base', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_base', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.318207] (linorobot2_description) JobProgress: {'identifier': 'linorobot2_description', 'progress': 'cmake'}
+[0.318983] (linorobot2_description) JobProgress: {'identifier': 'linorobot2_description', 'progress': 'build'}
+[0.320331] (linorobot2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/linorobot2_description', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_description', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_description'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.331578] (linorobot2_navigation) JobProgress: {'identifier': 'linorobot2_navigation', 'progress': 'cmake'}
+[0.331642] (linorobot2_navigation) JobProgress: {'identifier': 'linorobot2_navigation', 'progress': 'build'}
+[0.331673] (linorobot2_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/linorobot2_navigation', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_navigation', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_navigation'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.336266] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.336489] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[0.344211] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.374402] (linorobot2_base) CommandEnded: {'returncode': 0}
+[0.377679] (linorobot2_description) CommandEnded: {'returncode': 0}
+[0.384393] (linorobot2_navigation) CommandEnded: {'returncode': 0}
+[0.403000] (linorobot2_base) JobProgress: {'identifier': 'linorobot2_base', 'progress': 'install'}
+[0.403436] (linorobot2_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/linorobot2_base'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_base', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.406193] (-) TimerEvent: {}
+[0.407065] (linorobot2_description) JobProgress: {'identifier': 'linorobot2_description', 'progress': 'install'}
+[0.407265] (linorobot2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/linorobot2_description'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_description', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_description'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.412351] (linorobot2_navigation) JobProgress: {'identifier': 'linorobot2_navigation', 'progress': 'install'}
+[0.412521] (linorobot2_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/linorobot2_navigation'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_navigation', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_navigation'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.415767] (linorobot2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.418947] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch\n'}
+[0.419062] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch/description.launch.py\n'}
+[0.419183] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf\n'}
+[0.419284] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors\n'}
+[0.419396] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/laser.urdf.xacro\n'}
+[0.419492] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/imu.urdf.xacro\n'}
+[0.419590] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/depth_sensor.urdf.xacro\n'}
+[0.419684] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/generic_laser.urdf.xacro\n'}
+[0.419781] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/4wd_properties.urdf.xacro\n'}
+[0.419877] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech\n'}
+[0.419972] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/mecanum_wheel.urdf.xacro\n'}
+[0.420066] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/base.urdf.xacro\n'}
+[0.420175] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/caster_wheel.urdf.xacro\n'}
+[0.420276] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/wheel.urdf.xacro\n'}
+[0.420370] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers\n'}
+[0.420465] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/omni_drive.urdf.xacro\n'}
+[0.420560] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/skid_steer.urdf.xacro\n'}
+[0.420653] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/diff_drive.urdf.xacro\n'}
+[0.420746] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mecanum_properties.urdf.xacro\n'}
+[0.420834] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/2wd_properties.urdf.xacro\n'}
+[0.420916] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots\n'}
+[0.420997] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/vattenkar.urdf.xacro\n'}
+[0.421077] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/mecanum.urdf.xacro\n'}
+[0.424437] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/2wd.urdf.xacro\n'}
+[0.424550] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/turtlebot.urdf.xacro\n'}
+[0.424661] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/4wd.urdf.xacro\n'}
+[0.424759] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz\n'}
+[0.424856] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz/description.rviz\n'}
+[0.424954] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/package_run_dependencies/linorobot2_description\n'}
+[0.425057] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/parent_prefix_path/linorobot2_description\n'}
+[0.425172] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.sh\n'}
+[0.425281] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.dsv\n'}
+[0.425402] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.sh\n'}
+[0.425504] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.dsv\n'}
+[0.425602] (linorobot2_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.425731] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config\n'}
+[0.425846] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml\n'}
+[0.425943] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base\n'}
+[0.426042] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base\n'}
+[0.426167] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh\n'}
+[0.426281] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv\n'}
+[0.426384] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh\n'}
+[0.426495] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv\n'}
+[0.426608] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash\n'}
+[0.426694] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh\n'}
+[0.426775] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh\n'}
+[0.426860] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv\n'}
+[0.426955] (linorobot2_base) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv\n'}
+[0.428113] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base\n'}
+[0.428470] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake\n'}
+[0.428568] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake\n'}
+[0.428658] (linorobot2_base) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml\n'}
+[0.428745] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.bash\n'}
+[0.429514] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.sh\n'}
+[0.429634] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.zsh\n'}
+[0.429724] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.dsv\n'}
+[0.429811] (linorobot2_description) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.dsv\n'}
+[0.429897] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/packages/linorobot2_description\n'}
+[0.429982] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig.cmake\n'}
+[0.430068] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig-version.cmake\n'}
+[0.430726] (linorobot2_description) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.xml\n'}
+[0.430827] (linorobot2_base) CommandEnded: {'returncode': 0}
+[0.437333] (linorobot2_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.437512] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch\n'}
+[0.437627] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/navigation.launch.py\n'}
+[0.437731] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/slam.launch.py\n'}
+[0.437830] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz\n'}
+[0.437920] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation.rviz\n'}
+[0.438021] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation_minimal.rviz\n'}
+[0.438124] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_slam.rviz\n'}
+[0.438227] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config\n'}
+[0.438327] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation.yaml\n'}
+[0.438436] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/slam.yaml\n'}
+[0.438537] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation_sim.yaml\n'}
+[0.438634] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps\n'}
+[0.438726] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.pgm\n'}
+[0.438825] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricar.yaml\n'}
+[0.438921] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo.pgm\n'}
+[0.439021] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo.yaml\n'}
+[0.439123] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo2.pgm\n'}
+[0.439233] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricar.pgm\n'}
+[0.439330] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.yaml\n'}
+[0.439427] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.yaml\n'}
+[0.439542] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/habitacion_ricardo2.yaml\n'}
+[0.439644] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.pgm\n'}
+[0.439746] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/package_run_dependencies/linorobot2_navigation\n'}
+[0.439847] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/parent_prefix_path/linorobot2_navigation\n'}
+[0.439949] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.sh\n'}
+[0.440048] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.dsv\n'}
+[0.442524] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.sh\n'}
+[0.442674] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.dsv\n'}
+[0.442782] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.bash\n'}
+[0.442887] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.sh\n'}
+[0.442989] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.zsh\n'}
+[0.443101] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.dsv\n'}
+[0.443217] (linorobot2_navigation) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv\n'}
+[0.443317] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/packages/linorobot2_navigation\n'}
+[0.443435] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig.cmake\n'}
+[0.443540] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig-version.cmake\n'}
+[0.443641] (linorobot2_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.xml\n'}
+[0.443743] (linorobot2_description) CommandEnded: {'returncode': 0}
+[0.456255] (linorobot2_navigation) CommandEnded: {'returncode': 0}
+[0.479106] (linorobot2_base) JobEnded: {'identifier': 'linorobot2_base', 'rc': 0}
+[0.480168] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.494594] (linorobot2_description) JobEnded: {'identifier': 'linorobot2_description', 'rc': 0}
+[0.496410] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.506276] (-) TimerEvent: {}
+[0.506664] (linorobot2_navigation) JobEnded: {'identifier': 'linorobot2_navigation', 'rc': 0}
+[0.507424] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.507645] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.507902] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_setup', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_setup'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.510712] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.511513] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.511914] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/sllidar_ros2', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/sllidar_ros2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.544669] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.571619] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.572302] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/micro_ros_setup'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_setup', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_setup'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.585959] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.589209] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.589336] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.589414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.589502] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.589574] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.589647] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.589719] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.589792] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.589873] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.589945] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.590016] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.590087] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.590175] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.590249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.590320] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.590392] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config\n'}
+[0.590464] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android\n'}
+[0.590535] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.590607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.590679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.590750] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.590821] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.590892] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.590962] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.591033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.591104] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.591197] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.591271] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.591343] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.591414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.591492] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.591564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.591636] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.591709] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.591786] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.591857] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.591928] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.591999] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.592079] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.598315] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.598429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.598531] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.598618] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.598703] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.598786] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.598868] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.598951] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.599034] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.599115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.599214] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.599297] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.599379] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.599477] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.599562] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.599647] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.599733] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.599816] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.599900] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.599984] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.600078] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.600177] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.600263] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.600348] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.600433] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.600529] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.600620] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.600705] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.600788] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.600869] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.600951] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.601034] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.601123] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.601237] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.601323] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.601407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.601490] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.601586] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.601671] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.601754] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.601836] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.601920] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.602032] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.602125] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.602219] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.602308] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.602391] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.602473] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.602555] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.602639] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.602722] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.602805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.602889] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.602971] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.603053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.603143] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.603231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.603314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.603397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.603479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.603561] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.603643] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.603732] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.603815] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.603898] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.603981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.604062] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.610413] (-) TimerEvent: {}
+[0.610458] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.610576] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.610665] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.610761] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.610847] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.610931] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.611015] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.611099] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.611200] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.611299] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.611384] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.611466] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.611549] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.611631] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.611714] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.611795] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.611876] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.611958] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.612039] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.612169] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.612269] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.612352] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.612434] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.612516] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.612597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.612679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.612762] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.612844] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.612926] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.613018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.613110] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.613277] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.616240] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.616347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.616431] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.616512] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.616593] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.616673] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host\n'}
+[0.616752] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.616833] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.616913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.616993] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.617073] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.617166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.617250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.617332] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.617425] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.617506] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.617587] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.617669] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.617763] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.617846] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.617928] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.618010] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.618092] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.624246] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.624353] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.624444] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.624528] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.624613] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.624697] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.624779] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.624861] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.624943] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.625025] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.625107] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.625207] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.625302] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.625387] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.625478] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.625562] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.625645] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.625727] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.625808] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.625889] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.625973] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.632413] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.632590] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.662614] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.671708] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.672523] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[0.672807] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[0.673056] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[0.696715] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.697082] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/sllidar_ros2'], 'cwd': '/home/botnuc/linorobot2_ws/build/sllidar_ros2', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/sllidar_ros2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.702690] (micro_ros_msgs) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[0.705370] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.706212] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[0.706376] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.706537] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.706667] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.706788] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.706911] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.707022] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.707415] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.708075] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.708210] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.708325] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.708432] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.708544] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.708646] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.708753] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.708852] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.708948] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.709038] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.709159] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.709276] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.709386] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.709511] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.709626] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.709741] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.709853] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.709980] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[0.710088] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.710538] (-) TimerEvent: {}
+[0.710577] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.711797] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.711937] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.712044] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.712214] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.712335] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.712436] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.712536] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.712636] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.712742] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.712873] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.712975] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.713076] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.714280] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.714419] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.714522] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.714624] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.714724] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.715056] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.715261] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.783952] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.810660] (-) TimerEvent: {}
+[0.823709] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.824340] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.850311] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[0.860963] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[0.910789] (-) TimerEvent: {}
+[0.939968] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[0.940660] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/micro_ros_msgs'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_msgs', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.948301] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.948609] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[0.948815] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.948923] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.949371] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.949497] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[0.949698] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[0.950167] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[0.950312] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[0.950430] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[0.950606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[0.950737] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[0.950925] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[0.951029] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[0.952041] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[0.952263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[0.952395] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[0.952814] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[0.952941] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[0.953138] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[0.953251] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.953382] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[0.953497] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[0.953685] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[0.953993] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.954126] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.954373] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.954502] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954694] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[0.955389] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[0.955507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.955620] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.955722] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.955808] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.955892] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.955975] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[0.956058] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[0.956152] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[0.956227] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[0.956280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[0.956328] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[0.956375] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.956424] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.956472] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[0.956520] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.956574] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.956622] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.956668] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[0.956716] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[0.956762] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[0.956809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[0.956860] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[0.956906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[0.956951] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[0.956997] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[0.957050] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[0.957096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[0.957172] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[0.957223] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[0.957271] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.957318] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.957366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.957412] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.957459] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[0.957506] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.957553] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.957600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.957646] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.957692] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.957739] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.957785] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.957832] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[0.957878] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957929] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957975] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.958024] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[0.958070] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[0.958122] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.958182] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[0.958230] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[0.958277] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[0.958323] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[0.958370] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[0.958418] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[0.958464] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.958510] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.958563] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[0.958609] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[0.958655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[0.958701] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[0.958748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[0.958794] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[0.958841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[0.958887] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[0.958933] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[0.958983] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.959030] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[0.959076] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.959132] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.959187] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.959234] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[0.959280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.959331] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.993035] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[0.993202] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[0.997534] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.997835] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.998202] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.998567] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[0.999217] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[0.999875] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[0.999965] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[1.000054] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[1.000259] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[1.000617] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[1.000852] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[1.000942] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[1.001030] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[1.001121] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[1.001511] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[1.001602] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[1.001690] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[1.001777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[1.001862] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[1.001946] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[1.002032] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[1.002115] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[1.002406] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[1.002490] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.002572] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.002654] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.002735] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.002822] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.002902] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.002982] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.003063] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.003156] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.003249] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.003330] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.003409] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.003490] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.003570] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.003766] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.003936] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.005079] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.005448] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.005555] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.005651] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.005746] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.006194] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.006319] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.006443] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[1.006559] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[1.006686] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[1.006811] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.010864] (-) TimerEvent: {}
+[1.110971] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[1.112305] (-) TimerEvent: {}
+[1.112349] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[1.118477] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[1.119111] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[1.119489] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_agent', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_agent'), ('PYTHONPATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.179356] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[1.189557] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[1.212393] (-) TimerEvent: {}
+[1.221500] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[1.221819] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/micro_ros_agent'], 'cwd': '/home/botnuc/linorobot2_ws/build/micro_ros_agent', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/micro_ros_agent'), ('PYTHONPATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.229099] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.229754] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[1.229879] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[1.230327] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[1.230464] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[1.230664] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[1.230782] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[1.230972] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[1.231074] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[1.231178] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[1.231278] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[1.231384] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[1.231495] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[1.231606] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.231716] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[1.231827] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[1.231940] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[1.232052] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[1.232331] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[1.232471] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[1.232828] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[1.277795] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[1.279203] (linorobot2_bringup) JobStarted: {'identifier': 'linorobot2_bringup'}
+[1.285391] (linorobot2_bringup) JobProgress: {'identifier': 'linorobot2_bringup', 'progress': 'cmake'}
+[1.285894] (linorobot2_bringup) JobProgress: {'identifier': 'linorobot2_bringup', 'progress': 'build'}
+[1.286213] (linorobot2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/botnuc/linorobot2_ws/build/linorobot2_bringup', '--', '-j4', '-l4'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_bringup', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent/lib:/home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent:/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_bringup'), ('PYTHONPATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent:/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.312493] (-) TimerEvent: {}
+[1.319597] (linorobot2_bringup) CommandEnded: {'returncode': 0}
+[1.338374] (linorobot2_bringup) JobProgress: {'identifier': 'linorobot2_bringup', 'progress': 'install'}
+[1.338638] (linorobot2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/botnuc/linorobot2_ws/build/linorobot2_bringup'], 'cwd': '/home/botnuc/linorobot2_ws/build/linorobot2_bringup', 'env': OrderedDict([('USER', 'botnuc'), ('LC_TIME', 'es_DO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent/lib:/home/botnuc/linorobot2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/botnuc'), ('OLDPWD', '/home/botnuc/linorobot2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_DO.UTF-8'), ('SYSTEMD_EXEC_PID', '12379'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'botnuc'), ('JOURNAL_STREAM', '8:54288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('INVOCATION_ID', '5b253d7366a34a4281a3e1046842d238'), ('LC_ADDRESS', 'es_DO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_DO.UTF-8'), ('AMENT_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent:/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_DO.UTF-8'), ('LC_MEASUREMENT', 'es_DO.UTF-8'), ('LC_IDENTIFICATION', 'es_DO.UTF-8'), ('PWD', '/home/botnuc/linorobot2_ws/build/linorobot2_bringup'), ('PYTHONPATH', '/home/botnuc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_DO.UTF-8'), ('LC_PAPER', 'es_DO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/botnuc/linorobot2_ws/install/micro_ros_agent:/home/botnuc/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.346293] (linorobot2_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.346477] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch\n'}
+[1.346572] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/depth.launch.py\n'}
+[1.346657] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/lasers.launch.py\n'}
+[1.346739] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/bringup.launch.py\n'}
+[1.346819] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/joy_teleop.launch.py\n'}
+[1.346900] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/custom_robot.launch.py\n'}
+[1.346980] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/default_robot.launch.py\n'}
+[1.347068] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/extra.launch.py\n'}
+[1.347162] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/sensors.launch.py\n'}
+[1.347248] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config\n'}
+[1.347328] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/zed_common.yaml\n'}
+[1.347408] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/joy.yaml\n'}
+[1.347486] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/box_laser_filter.yaml\n'}
+[1.347568] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/fake_laser.yaml\n'}
+[1.347648] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/package_run_dependencies/linorobot2_bringup\n'}
+[1.347908] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/parent_prefix_path/linorobot2_bringup\n'}
+[1.348018] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/ament_prefix_path.sh\n'}
+[1.348103] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/ament_prefix_path.dsv\n'}
+[1.348214] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/path.sh\n'}
+[1.348300] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/path.dsv\n'}
+[1.348382] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.bash\n'}
+[1.348462] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.sh\n'}
+[1.348542] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.zsh\n'}
+[1.348633] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.dsv\n'}
+[1.351353] (linorobot2_bringup) StdoutLine: {'line': b'-- Installing: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.dsv\n'}
+[1.351474] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/packages/linorobot2_bringup\n'}
+[1.351565] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/cmake/linorobot2_bringupConfig.cmake\n'}
+[1.351656] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/cmake/linorobot2_bringupConfig-version.cmake\n'}
+[1.351745] (linorobot2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/botnuc/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.xml\n'}
+[1.351871] (linorobot2_bringup) CommandEnded: {'returncode': 0}
+[1.389501] (linorobot2_bringup) JobEnded: {'identifier': 'linorobot2_bringup', 'rc': 0}
+[1.390246] (-) EventReactorShutdown: {}

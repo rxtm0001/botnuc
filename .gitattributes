@@ -1,0 +1,1 @@
+install/camera_detection/share/camera_detection/models/yolov3.weights filter=lfs diff=lfs merge=lfs -text

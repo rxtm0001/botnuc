@@ -1,0 +1,4 @@
+[0.133s] Invoking command in '/home/botnuc/linorobot2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/botnuc/linorobot2_ws/build/linorobot2 -- -j4 -l4
+[0.309s] gmake: *** wait: No child processes.  Stop.
+[0.316s] gmake: *** Waiting for unfinished jobs....
+[0.317s] gmake: *** wait: No child processes.  Stop.

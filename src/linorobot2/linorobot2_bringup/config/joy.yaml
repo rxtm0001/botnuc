@@ -1,0 +1,31 @@
+teleop_twist_joy_node:
+  ros__parameters:
+
+    # Ejes lineales para los movimientos del joystick
+    axis_linear:
+      x: 1  # Eje vertical del joystick izquierdo (adelante/atrás)
+      y: 0  # Eje horizontal del joystick izquierdo (izquierda/derecha)
+
+    # Escalas para los movimientos lineales
+    scale_linear:
+      x: 0.5  # Escala de velocidad para el eje x
+      y: 0.5  # Escala de velocidad para el eje y
+
+    # Eje angular para la rotación del joystick
+    axis_angular:
+      yaw: 3  # Eje horizontal del joystick derecho (girar)
+
+    # Escala para los movimientos angulares
+    scale_angular:
+      yaw: 1.0  # Escala de velocidad para la rotación
+
+    # Configuración de los botones
+    enable_button: 7  # Botón R2 en PS4 para habilitar el control
+    enable_turbo_button: 6  # Botón círculo en PS4 para habilitar el turbo
+
+    # Escalas turbo (opcional)
+    scale_linear_turbo:
+      x: 1.0
+      y: 1.0
+    scale_angular_turbo:
+      yaw: 2.0
